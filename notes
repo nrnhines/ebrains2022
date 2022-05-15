@@ -1,0 +1,22 @@
+EBRAINS School on Brain Simulation 2022
+
+coverage
+testing
+readthedocs
+gpu
+
+HPC group of BlueBrain project very involved
+cmake
+developer tools
+  clang sanitizers
+CI (continuous integration)
+nightly mswin and python wheels for mac/linux
+github
+
+encourage participation in developer meetings
+
+fully c++
+learn development best practices
+
+pointer tracking when CoreNEURON merges with NEURON
+Other projects that use NEURON as a component.
