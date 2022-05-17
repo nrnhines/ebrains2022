@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if test "$1" != "" ; then
+	case $1 in
+	order*) files=`sed '
+		/^\#/d
+		/^$/d
+	' $1` ;;
+	*) files=$* ;;
+	esac
+else
+	files=`sed '
+		/^\#/d
+		/^$/d
+	' order`
+fi
+
+gs -dDEVICEWIDTHPOINTS=720 -dDEVICEHEIGHTPOINTS=576 -sDEVICE=pdfwrite -sOutputFile=talk.pdf $files < /dev/null
+
+evince talk.pdf
+
