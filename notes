@@ -25,3 +25,28 @@ learn development best practices
 
 pointer tracking when CoreNEURON merges with NEURON
 Other projects that use NEURON as a component.
+
+
+We used a multiple Ring model with a total of 131,072 cells comprising
+10,878,976 nodes running for 10 ms on NVIDIA K20X GPU (NVIDIA
+Corporation, 2012)
+ Every cell has the same number (83) of nodes
+but different cell types
+have a different random branching pattern of the 40 dendrites.  The
+number of identical cells per type ranges from 1 (131,072 distinct
+branching patterns) to 32 (4096 distinct branching patterns). 
+
+Adjacent '.' means that parent nodes are adjacent.  An 'o' means the
+memory location of the parent is not adjacent to the previous parent
+access.  The last graph shows the parent memory access pattern for three
+cells, each with a different tree topology (each tree has same number of
+compartments).  Now X means there is nothing for that core to compute. 
+R and r both mean two children are adding something to the parent so
+have to do it atomically.  R is otherwis equivalent to o and 'r' is
+otherwise equivalent to '.' Often times an X is required to avoid
+vicious race conditions where otherwise a child would add to a parent at
+the same time that parent was adding to its parent. 
+
+8 topologies of 4 cells each. Adjacent '.' means that parent nodes are adjacent.
+An 'o' means the memory location of the parent is not adjacent to the
+previous parent access.
