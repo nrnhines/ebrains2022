@@ -17,5 +17,5 @@ fi
 
 gs -dDEVICEWIDTHPOINTS=720 -dDEVICEHEIGHTPOINTS=576 -sDEVICE=pdfwrite -sOutputFile=talk.pdf $files < /dev/null
 
-evince talk.pdf
+open talk.pdf
 

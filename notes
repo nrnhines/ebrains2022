@@ -2,7 +2,8 @@ EBRAINS School on Brain Simulation 2022
 
 Friday 3.6.2022
 
-buildtalk order
+use libreoffice to work with odp and generate pdf portions
+./buildtalk order
 creates talk.pdf
 
 coverage
