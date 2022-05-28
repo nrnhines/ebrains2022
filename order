@@ -9,6 +9,7 @@ organize[3].id
 # NEURON + Python
 
 # gpu efficiency via permuting to optimize parent ordering
+mem[1-3].id
 8rancell.id
 interleave-opt-vs-cells-per-type.id
 parpat3.id
