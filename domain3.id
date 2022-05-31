@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Helvetica Helvetica-Bold
 %%Pages: 1
-%%BoundingBox: 28 38 704 524
+%%BoundingBox: 28 20 704 524
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -56418,6 +56418,7 @@ Helvetica-Bold 14 SetF
 (Linear circuits)
 (Synapses)
 (Gap Junctions)
+(Networks)
 ] Text
 End
 
