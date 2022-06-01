@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Helvetica-Bold Helvetica Courier-Bold
 %%Pages: 1
-%%BoundingBox: 60 134 576 483
+%%BoundingBox: 60 172 636 500
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -1099,16 +1099,135 @@ Begin %I Text
 %I f -*-courier-bold-r-normal-*-12-*-*-*-*-*-*-*
 Courier-Bold 12 SetF
 %I t
-[ 2 0 0 2 84 325 ] concat
+[ 2 0 0 2 84 328 ] concat
 %I
 [
-(s\(0.3\).area\(\))
-(    6283.185...)
-(s\(0\).area\(\))
-(    0.0)
-(sum\([seg.area\(\) for seg in s]\))
-(    31415.92...)
+(ic = h.IClamp\(s\(1.0\)\))
+(ic.delay = 1 # ms)
+(ic.dur = .5  # ms)
+(ic.amp = .03 # nA)
 ] Text
+End
+
+Begin %I Line
+%I b 65535
+2 0 0 [] 0 SetB
+%I cfg Black
+0 0 0 SetCFg
+%I cbg White
+1 1 1 SetCBg
+none SetP %I p n
+%I t
+[ 1 -0 -0 1 23 81 ] concat
+%I
+714 491 751 575 Line
+%I 1
+End
+
+Begin %I Line
+%I b 65535
+2 0 0 [] 0 SetB
+%I cfg Black
+0 0 0 SetCFg
+%I cbg White
+1 1 1 SetCBg
+none SetP %I p n
+%I t
+[ 1 -0 -0 1 23 81 ] concat
+%I
+720 489 768 566 Line
+%I 1
+End
+
+Begin %I Pict
+%I b 65535
+1 0 0 [] 0 SetB
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 1 0 0 1 -8 -16 ] concat
+
+Begin %I Line
+%I b 65535
+0 0 0 [] 0 SetB
+%I cfg Black
+0 0 0 SetCFg
+%I cbg White
+1 1 1 SetCBg
+none SetP %I p n
+%I t
+[ 1 -0 -0 1 23 81 ] concat
+%I
+753 559 769 591 Line
+%I 1
+End
+
+Begin %I Line
+%I b 65535
+0 0 0 [] 0 SetB
+%I cfg Black
+0 0 0 SetCFg
+%I cbg White
+1 1 1 SetCBg
+none SetP %I p n
+%I t
+[ 1 -0 -0 1 23 81 ] concat
+%I
+769 591 817 591 Line
+%I 1
+End
+
+Begin %I Line
+%I b 65535
+0 0 0 [] 0 SetB
+%I cfg Black
+0 0 0 SetCFg
+%I cbg White
+1 1 1 SetCBg
+none SetP %I p n
+%I t
+[ 1 -0 -0 1 23 81 ] concat
+%I
+817 591 817 559 Line
+%I 1
+End
+
+Begin %I Poly
+%I b 65535
+0 0 0 [] 0 SetB
+%I cfg Black
+0 0 0 SetCFg
+%I cbg White
+1 1 1 SetCBg
+%I p
+0 SetP
+%I t
+[ 1 -0 -0 1 23 81 ] concat
+%I 3
+801 559
+833 559
+817 535
+3 Poly
+End
+
+End %I eop
+
+Begin %I Line
+%I b 65535
+3 1 0 [] 0 SetB
+%I cfg Black
+0 0 0 SetCFg
+%I cbg White
+1 1 1 SetCBg
+%I p
+0 SetP
+%I t
+[ 1 -0 -0 1 23 81 ] concat
+%I
+769 583 801 583 Line
+%I 1
 End
 
 Begin %I Text

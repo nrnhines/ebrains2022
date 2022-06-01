@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Helvetica-Bold Helvetica Courier-Bold
 %%Pages: 1
-%%BoundingBox: 60 134 576 483
+%%BoundingBox: 60 116 638 483
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -1102,14 +1102,306 @@ Courier-Bold 12 SetF
 [ 2 0 0 2 84 325 ] concat
 %I
 [
-(s\(0.3\).area\(\))
-(    6283.185...)
-(s\(0\).area\(\))
-(    0.0)
-(sum\([seg.area\(\) for seg in s]\))
-(    31415.92...)
+(s.insert\("hh"\))
 ] Text
 End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-courier-bold-r-normal-*-12-*-*-*-*-*-*-*
+Courier-Bold 12 SetF
+%I t
+[ 2 0 0 2 84 277 ] concat
+%I
+[
+(for sec in h.allsec\(\):)
+(  for seg in sec:)
+(    for mech in seg:)
+(      for var in mech:)
+(        print\(seg, var.name\(\), var[0]\))
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-courier-bold-r-normal-*-12-*-*-*-*-*-*-*
+Courier-Bold 12 SetF
+%I t
+[ 1.4 0 0 1.4 628 330.8 ] concat
+%I
+[
+(d37\(0.1\) ek -77.0)
+(...)
+(d37\(0.7\) gnabar_hh 0.12)
+(...)
+(d37\(0.9\) n_hh 0.0)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.3 0 0 1.3 628 237.5 ] concat
+%I
+[
+(20 lines per segment)
+] Text
+End
+
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 1 0 0 1 2.5 2 ] concat
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 247.1 586.8 ] concat
+%I
+[
+(hh)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 276.1 577.8 ] concat
+%I
+[
+(k)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 225.1 572.8 ] concat
+%I
+[
+(na)
+] Text
+End
+
+End %I eop
+
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 1 0 0 1 108.5 2 ] concat
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 247.1 586.8 ] concat
+%I
+[
+(hh)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 276.1 577.8 ] concat
+%I
+[
+(k)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 225.1 572.8 ] concat
+%I
+[
+(na)
+] Text
+End
+
+End %I eop
+
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 1 0 0 1 213 2 ] concat
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 247.1 586.8 ] concat
+%I
+[
+(hh)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 276.1 577.8 ] concat
+%I
+[
+(k)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 225.1 572.8 ] concat
+%I
+[
+(na)
+] Text
+End
+
+End %I eop
+
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 1 0 0 1 317 2 ] concat
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 247.1 586.8 ] concat
+%I
+[
+(hh)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 276.1 577.8 ] concat
+%I
+[
+(k)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 225.1 572.8 ] concat
+%I
+[
+(na)
+] Text
+End
+
+End %I eop
+
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 1 0 0 1 424 2 ] concat
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 247.1 586.8 ] concat
+%I
+[
+(hh)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 276.1 577.8 ] concat
+%I
+[
+(k)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 1.4 0 0 1.4 225.1 572.8 ] concat
+%I
+[
+(na)
+] Text
+End
+
+End %I eop
 
 Begin %I Text
 %I cfg Black
@@ -1133,8 +1425,8 @@ Courier-Bold 12 SetF
 [ 2 0 0 2 84 453 ] concat
 %I
 [
-(s = h.Section\(\))
-(s.L = 1000   # um)
+(s = h.Section\("d37"\) # instead of an auto name like)
+(s.L = 1000   # um    # __nrnsec_0x118018000)
 (s.diam = 10  # um)
 (s.nseg = 5)
 ] Text
