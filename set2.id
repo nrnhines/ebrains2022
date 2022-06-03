@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Times-Bold Courier-Bold Helvetica-Bold
 %%Pages: 1
-%%BoundingBox: 42 37 709 544
+%%BoundingBox: 42 43 709 544
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -813,14 +813,6 @@ End
 
 End %I eop
 
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
-%I t u
-
 Begin %I Text
 %I cfg Black
 0 0 0 SetCFg
@@ -840,27 +832,12 @@ Begin %I Text
 %I f -*-courier-bold-r-normal-*-12-*-*-*-*-*-*-*
 Courier-Bold 12 SetF
 %I t
-[ 3 0 0 3 135.091 183.102 ] concat
-%I
-[
-(nc.weight = 0.001)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-courier-bold-r-normal-*-12-*-*-*-*-*-*-*
-Courier-Bold 12 SetF
-%I t
 [ 3 0 0 3 135.091 228.132 ] concat
 %I
 [
 (nc.delay = 1.0)
 ] Text
 End
-
-End %I eop
 
 Begin %I Text
 %I cfg Black
@@ -886,6 +863,19 @@ Helvetica-Bold 14 SetF
 [
 (PostSyn = h.ExpSyn\(PostCell.dend[0]\(0.5\)\))
 (PreSyn = PreCell.axon\(1\)._ref_v)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-courier-bold-r-normal-*-12-*-*-*-*-*-*-*
+Courier-Bold 12 SetF
+%I t
+[ 3 0 0 3 135.091 183.102 ] concat
+%I
+[
+(nc.weight[0] = 0.001)
 ] Text
 End
 

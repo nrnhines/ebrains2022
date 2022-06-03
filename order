@@ -12,6 +12,16 @@ nrnpy2.pdf
 nrnpy[3-9].id
 section[0-9].id
 
+#network
+spikecoupled.id
+spikecoupled2.id
+set2.id
+set3.id
+set4.id
+set51.id
+set52.id
+set8.id
+
 # gpu efficiency via permuting to optimize parent ordering
 mem[1-3].id
 8rancell.id
